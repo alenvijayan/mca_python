@@ -1,0 +1,5 @@
+c1=list(map(int,input('enter comma sepp intgers1:').split(',')))
+c2=list(map(int,input('enter comma sepp intgers2:').split(',')))
+print('length is same'if len(c1)==len(c2) else 'length not same')
+print('sum is same 'if sum(c1)==sum(c2) else 'sum not same')
+print('values in both:',[x for x in c1 if x in c2])

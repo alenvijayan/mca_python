@@ -1,0 +1,5 @@
+lis1=input('enter comma sepp lis 1:').split(',')
+lis2=input('enter comma sepp lis 2:').split(',')
+print('Equal' if lis1==lis2 else 'not equal')
+common=set(lis1)&set(lis2)
+print('common:',common)
